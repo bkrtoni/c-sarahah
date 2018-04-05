@@ -1,2 +1,2 @@
 # c-sarahah
-This is a clove of sarahah
+This is a clone of sarahah
