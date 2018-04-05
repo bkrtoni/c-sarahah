@@ -1,0 +1,49 @@
+.navbar-inv{
+    background-color: #10BBB3;
+    border-color: #10BBB3;
+
+}
+
+.navbar-inv .navbar-nav>li>a, .navbar-inv .navbar-text {
+    color: #fff;
+}
+
+.logo-nav .logo-nav:hover{
+	color:#fff;
+}
+
+
+.mybtn{
+	color:#10BBB3;
+	background-color: #fff;
+	border-color: #10BBB3;
+}
+
+.mybtn:hover{
+	color:#fff;
+	background-color: #10BBB3;
+}
+
+
+.myLink{
+	color:#10BBB3;
+}
+.myLink:hover{
+	color:#10BBB3;	
+	text-decoration: none;
+}
+
+body{
+	color:black;
+}
+
+.textarea-container {
+    display: table;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid #10bbb3;
+    padding: 5px;
+    width: 90%;
+    background-color: rgba(12,200,201,.02);
+}
+
