@@ -41,11 +41,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => env('DB_HOST', 'sql208.eb2a.com'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'eb2a_21894716_csarahah'),
+            'username' => env('DB_USERNAME', 'eb2a_21894716'),
+            'password' => env('DB_PASSWORD', 'baker125678_'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
@@ -56,11 +56,11 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => env('DB_HOST', 'sql208.eb2a.com'),
             'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'eb2a_21894716_csarahah'),
+            'username' => env('DB_USERNAME', 'eb2a_21894716'),
+            'password' => env('DB_PASSWORD', 'baker125678_'),
             'charset' => 'utf8',
             'prefix' => '',
             'schema' => 'public',
@@ -69,11 +69,11 @@ return [
 
         'sqlsrv' => [
             'driver' => 'sqlsrv',
-            'host' => env('DB_HOST', 'localhost'),
+            'host' => env('DB_HOST', 'sql208.eb2a.com'),
             'port' => env('DB_PORT', '1433'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'eb2a_21894716_csarahah'),
+            'username' => env('DB_USERNAME', 'eb2a_21894716'),
+            'password' => env('DB_PASSWORD', 'baker125678_'),
             'charset' => 'utf8',
             'prefix' => '',
         ],
