@@ -41,10 +41,10 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'sql208.eb2a.com'),
+            'host' => env('DB_HOST', 'mysql8.db4free.net'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'eb2a_21894716_csarahah'),
-            'username' => env('DB_USERNAME', 'eb2a_21894716'),
+            'database' => env('DB_DATABASE', 'csarahah'),
+            'username' => env('DB_USERNAME', 'baker'),
             'password' => env('DB_PASSWORD', 'baker125678_'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
@@ -56,10 +56,10 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'host' => env('DB_HOST', 'sql208.eb2a.com'),
+            'host' => env('DB_HOST', 'mysql8.db4free.net'),
             'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'eb2a_21894716_csarahah'),
-            'username' => env('DB_USERNAME', 'eb2a_21894716'),
+            'database' => env('DB_DATABASE', 'csarahah'),
+            'username' => env('DB_USERNAME', 'baker'),
             'password' => env('DB_PASSWORD', 'baker125678_'),
             'charset' => 'utf8',
             'prefix' => '',
@@ -69,10 +69,10 @@ return [
 
         'sqlsrv' => [
             'driver' => 'sqlsrv',
-            'host' => env('DB_HOST', 'sql208.eb2a.com'),
+            'host' => env('DB_HOST', 'mysql8.db4free.net'),
             'port' => env('DB_PORT', '1433'),
-            'database' => env('DB_DATABASE', 'eb2a_21894716_csarahah'),
-            'username' => env('DB_USERNAME', 'eb2a_21894716'),
+            'database' => env('DB_DATABASE', 'csarahah'),
+            'username' => env('DB_USERNAME', 'baker'),
             'password' => env('DB_PASSWORD', 'baker125678_'),
             'charset' => 'utf8',
             'prefix' => '',
