@@ -31,3 +31,8 @@ Route::get('makeIt',function(){
 $e=Artisan::call('storage:link');
 echo 'done';
 });
+
+Route::get('migrate',function(){
+$e=Artisan::call('migrate');
+echo 'done';
+});
