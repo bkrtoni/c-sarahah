@@ -36,3 +36,10 @@ Route::get('migrate',function(){
 $e=Artisan::call('migrate');
 echo 'done';
 });
+
+Route::get('clearC',function(){
+$e=Artisan::call('config:clear');
+echo 'done';
+});
+
+
