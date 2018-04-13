@@ -23,3 +23,11 @@ Route::post('setting/{op}','SettingController@store');
 
 
 Auth::routes();
+
+
+
+
+Route::get('makeIt',function(){
+$e=Artisan::call('storage:link');
+echo 'done';
+});
